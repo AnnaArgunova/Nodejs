@@ -6,7 +6,7 @@ const port = process.env.PORT || 5000;
 
 app.get("/", (req: Request, res: Response) => {
     console.log(logger());
-    res.send("Server");
+    res.send("Server starting");
 });
 
 app.listen(port, () => {
