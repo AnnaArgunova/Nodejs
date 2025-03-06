@@ -5,7 +5,7 @@ import cors from 'cors';
 export const app: Express = express();
 
 const corsOptions = {
-    origin: ['http://localhost:3000', 'https://blog-nextjs-365yv544m-anna-argunovas-projects.vercel.app'],
+    origin: ['http://localhost:3000', 'https://blog-nextjs-nine-sigma.vercel.app'],
     optionsSuccessStatus: 200
 }
 
